@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <form method="get" action="/serverurl">
+
+            <!--email=shubham@gmailcom;name=shubham-->
+
+            <!--max length and min length put restrictions on the content the user is entering-->
+
+            <label>Your College</label><br><br>
+            <select multiple>
+
+               <option value="1">CCET</option>
+               <option value="2">LPU</option>
+               <option>IIT Mumbai</option>
+               <option>IIT Kharagpur</option>
+            </select><br><br>
+
+            <label>Do you Workout ??</label><br>
+            <label>Yes</label><input type="checkbox" name="checkbox"> <br>
+            <label>No</label><input type="checkbox" name="checkbox"> <br>
+
+            <label>Gender Radio Buttons</label><br>
+
+          <label>Male</label>  <input type="radio" name="gender">  <label>FeMale</label>   <input type="radio" name="gender">  <label>Others</label>   <input type="radio" name="gender"> <br><br>
+
+            <label>Name</label><br><br>
+
+            <input type="text" maxlength="5" minlength="2"  name="name"   placeholder="Name must be all caps"  value=""> <br><br>
+
+            <label>Age</label><br><br>
+            <input type="number" max="100" min="10"   placeholder="Age"  value=""><br><br>
+
+            <label>DOB</label><br><br>
+             <input type="date" required placeholder="Date"  value="2013-01-08"><br><br>
+
+             <label>COLOR</label><br><br>
+             <input required type="color"><br><br>
+
+             <label>Your Resume In PDF</label><br><br>
+             <input type="file" name="image"    accept="application/pdf" id=""><br><br>
+             <label>Your Email</label><br><br>
+             <input  type="email" name="email" placeholder="Only Emails Allowed"><br><br>
+            
+
+
+             <textarea name="about me"  cols="50" rows="10"></textarea><br><br>
+
+             <input type="submit" value="Submit Form">
+
+
+
+
+
+        </form>
+
+
+
+    </div>
+
+    
+</body>
+</html>
