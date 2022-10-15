@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .parent{
+
+        display: flex;
+        /*flex-direction: row;  it decides whether your content is placed horizontally or vertifall by default its row*/
+        justify-content: space-evenly; /* flex-end flex-start ,center ,space-around,space-evenly */
+      /*  align-items:;*/
+/**
+
+for flex direction row -justify content will place the content horizontally and move horizontally
+for flex -direction column justify content will move the content vertically
+**/
+    }
+
+    .child{
+        width: 300px;
+  
+        
+    }
+
+    #c1{
+        background-color: aquamarine;
+        height: 400px;
+    }
+
+    #c2{
+        background-color: cadetblue;
+        height: 300px;
+    }
+
+    #c3{
+        background-color: brown;
+
+        height: 500px;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div class="parent">
+
+        <div class="child" id="c1">
+
+        </div>
+
+        <div class="child" id="c2">
+
+        </div>
+
+        <div class="child" id="c3">
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
